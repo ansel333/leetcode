@@ -10,7 +10,7 @@ public class Solution_7_2 {
             tail = x % 10;
             x = x / 10;
             if(lastResult > Integer.MAX_VALUE / 10 || lastResult == Integer.MAX_VALUE / 10 && tail > 7) return 0;
-            if(lastResult < Integer.MIN_VALUE / 10 || lastResult == Integer.MAX_VALUE / 10 && tail < -8) return 0;
+            if(lastResult < Integer.MIN_VALUE / 10 || lastResult == Integer.MIN_VALUE / 10 && tail < -8) return 0;
             lastResult = lastResult * 10 + tail;
         }
 
