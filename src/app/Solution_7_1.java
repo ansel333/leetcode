@@ -24,4 +24,10 @@ public class Solution_7_1 {
         }
         return "".equals(xStr)? 0 : result * gay;
     }
+
+    public static void main(String[] args) {
+        synchronized (System.out) {
+            System.out.print(reverse(12345));
+        }
+    }
 }
