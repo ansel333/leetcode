@@ -3,12 +3,4 @@ bin
 .classpath
 .project
 .settings
-/out/production/leetcode/app/App.class
-/out/production/leetcode/app/LeetCode459RepeatedSubstringPattern.class
-/out/production/leetcode/app/Solution3_1.class
-/out/production/leetcode/app/Solution3_2.class
-/out/production/leetcode/app/Solution_1_1.class
-/out/production/leetcode/app/Solution_7_1.class
-/out/production/leetcode/app/Solution_7_2.class
-/out/production/leetcode/app/Solution_442_1.class
-/out/production/leetcode/app/Solution_442_2.class
+/out/*
