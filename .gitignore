@@ -4,4 +4,4 @@ bin
 .project
 .settings
 /out/*
-.idea
+/.idea/
