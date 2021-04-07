@@ -6,10 +6,16 @@ package app;
 public class LeetCode459RepeatedSubstringPattern {
 
     public static void main(String[] args) {
-        String a = "abcaabca";
-        System.out.println(repeatedSubstringPattern(a));
+        String a = "abcababca";
+        System.out.println(simple(a));
     }
 
+    /**
+     * 暴力枚举法
+     *
+     * @param s
+     * @return
+     */
     public static boolean repeatedSubstringPattern(String s) {
         int length = s.length();
         int subLength = 1;
@@ -36,6 +42,16 @@ public class LeetCode459RepeatedSubstringPattern {
 
         }
 
+        return false;
+    }
+
+    public static boolean simple(String s) {
+        String a = s.substring(1) + s.substring(0, s.length() - 1);
+        for (int i = 0; i < s.length(); i++) {
+            if (a.startsWith(s, i)) {
+                return true;
+            }
+        }
         return false;
     }
 }
