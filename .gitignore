@@ -5,3 +5,4 @@ bin
 .settings
 /out/*
 /.idea/
+/target/*
