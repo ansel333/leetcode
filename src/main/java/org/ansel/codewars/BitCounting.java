@@ -1,4 +1,4 @@
-package org.ansel.war;
+package org.ansel.codewars;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;

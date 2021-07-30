@@ -1,4 +1,4 @@
-package org.ansel.war;
+package org.ansel.codewars;
 
 import org.junit.Assert;
 import org.junit.Test;
