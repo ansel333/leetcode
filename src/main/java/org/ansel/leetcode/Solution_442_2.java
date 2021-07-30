@@ -1,4 +1,4 @@
-package app;
+package org.ansel.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;

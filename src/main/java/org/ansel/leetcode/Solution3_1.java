@@ -1,4 +1,4 @@
-package app;
+package org.ansel.leetcode;
 
 public class Solution3_1 {
     public static int lengthOfLongestSubstring(String s) {

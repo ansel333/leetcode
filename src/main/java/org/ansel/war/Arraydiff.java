@@ -1,4 +1,4 @@
-package app.code.war;
+package org.ansel.war;
 
 import org.junit.Test;
 

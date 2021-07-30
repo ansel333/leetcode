@@ -1,3 +1,5 @@
+package org.ansel.ds;
+
 import java.util.Arrays;
 
 class SuffixArray

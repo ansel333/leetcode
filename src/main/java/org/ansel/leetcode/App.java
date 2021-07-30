@@ -1,4 +1,4 @@
-package app;
+package org.ansel.leetcode;
 
 public class App {
     public static void main(String[] args) throws Exception {

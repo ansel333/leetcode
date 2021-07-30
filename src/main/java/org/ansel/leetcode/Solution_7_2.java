@@ -1,4 +1,4 @@
-package app;
+package org.ansel.leetcode;
 
 public class Solution_7_2 {
     public static int reverse(int x) {
