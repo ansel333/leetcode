@@ -1,0 +1,17 @@
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int slow = 0;
+        for (int fast = 1; fast < nums.length; fast++) {
+            if (nums[fast] != nums[fast-1]) {
+                // new value found, slow++ and give it new value
+                slow += 1;
+                nums[slow] = nums[fast];
+            }
+        }
+        return slow + 1;
+    }
+
+    
+}
+//runtime:0 ms
+//memory:42.9 MB
